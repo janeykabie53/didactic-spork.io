@@ -1,0 +1,77 @@
+*{
+    
+    box-sizing: border-box;
+}
+.navbar{
+    font-size: 16x;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.nav-buttons{
+    margin-left: 70%;
+}
+.navbar-buttons ul{
+    justify-content: space-between;
+    padding: 5px;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 5px 20px;
+    color: black;
+    transition: 0.4s ease;
+}
+.nav-item .login{
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid gray;
+    padding-left: 5px;
+    width: 100px;
+}
+.nav-item .btn{
+    width: 100px;
+    height: 30px;
+    padding: 0;
+}
+.container{
+    margin-left: 80px;
+}
+.container img{
+    width: 100%;
+}
+.container figcaption{
+    justify-content: center;
+    text-align: center;
+}
+.container p{
+    font-size: 25px;
+    font-weight: 50;
+}
+@media only screen and (max-width:990px) {
+
+    .nav-buttons{
+        margin: 10px
+    }
+
+    .nav-buttons ul{
+        margin: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .nav-buttons ul .bx{
+        margin: 20px 5px 10px 20px;
+    }
+}
+
+@media all and (max-width: 720px){
+    .container{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .container p{
+        font-size: 15px;
+    }
+}
